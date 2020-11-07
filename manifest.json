@@ -12,7 +12,7 @@
     "page_action": {
       "default_popup": "popup.html",
       "default_icon": {
-          "128": "pomegranate.png"
+          "128": "res/pomegranate.png"
       }
     },
     

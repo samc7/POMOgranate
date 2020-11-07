@@ -1,3 +1,0 @@
-# NewHacksProject
-
-test

@@ -15,11 +15,6 @@
           "128": "pomegranate.png"
       }
     },
-
-    "browser_action": {
-      "default_icon": "res/pomegranate.png", 
-      "default_popup": "src/popup.html"
-    },
     
       "content_scripts": [
      {

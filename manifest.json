@@ -16,7 +16,7 @@
     }
   },
     
-      "content_scripts": [
+    "content_scripts": [
      {
      "matches": ["https://q.utoronto.ca/*"],
      "run_at": "document_idle",

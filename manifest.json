@@ -1,7 +1,7 @@
   {
     "name": "NewHacks Extension",
     "version": "1.0",
-    "description": "idk lol",
+    "description": "Timer for work periods and blocks unproductive websites while this is active",
      "permissions": ["management","declarativeContent", "storage", "tabs","activeTab"],
 
     "options_page": "options.html",
@@ -15,13 +15,18 @@
           "128": "pomegranate.png"
       }
     },
+
+    "browser_action": {
+      "default_icon": "res/pomegranate.png", 
+      "default_popup": "src/popup.html"
+    },
     
       "content_scripts": [
      {
      "matches": ["https://q.utoronto.ca/*"],
      "run_at": "document_idle",
      "all_frames": true,
-     "js": ["src/pageSource.js"]
+     "js": ["src/content.js"]
      }
      ],
    

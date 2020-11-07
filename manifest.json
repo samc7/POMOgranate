@@ -2,7 +2,7 @@
     "name": "NewHacks Extension",
     "version": "1.0",
     "description": "idk lol",
-     "permissions": ["management","declarativeContent", "storage", "tabs","activeTab"]
+     "permissions": ["management","declarativeContent", "storage", "tabs","activeTab"],
 
      
     "background": {

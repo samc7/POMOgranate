@@ -1,0 +1,31 @@
+  {
+    "name": "NewHacks Extension",
+    "version": "1.0",
+    "description": "Timer for work periods and blocks unproductive websites while this is active",
+     "permissions": ["management","declarativeContent", "storage", "tabs","activeTab"],
+
+    "options_page": "options.html",
+    "background": {
+    "scripts": ["src/background.js","jquery-3.2.1.min.js"],
+    "persistent": false
+  },
+    "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "res/pomegranate.png"
+    }
+  },
+    
+    "content_scripts": [
+     {
+     "matches": ["https://q.utoronto.ca/*"],
+     "run_at": "document_idle",
+     "all_frames": true,
+     "js": ["src/content.js", "jquery-3.2.1.min.js"]
+     }
+     ],
+   
+    
+    "manifest_version": 2
+  }
+

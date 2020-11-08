@@ -4,16 +4,16 @@ The goal of this extension is to read the timer data from a website and display 
 It will also block any websites that don't allow you to be productive such as social media websites
 
 
-Contributers: 
+Contributors: 
 
 Sam Chowdhury
-Github : https://github.com/samc7
+[samc7](https://github.com/samc7)
 
 Jennifer Mah
-Github: https://github.com/jmah4
+[jmah4](https://github.com/jmah4)
 
 Muaz Shash
-Github: https://github.com/MuazShash
+[MuazShash](https://github.com/MuazShash)
 
 Tahmeem Mahedi 
-Github: https://github.com/Tahmeem
+[Tahmeem](https://github.com/Tahmeem)

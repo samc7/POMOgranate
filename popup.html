@@ -3,19 +3,25 @@
     <head>
       <link rel="stylesheet" href="Style/style.css">
       <style media="screen">
-        body {
+        body{
             min-width:250px;
             min-height:300px;
         }
     </style>
-    <img src="res/pomegranate.png" width="36px" align="left">
+    <img src="res/pomegranate.png" width="58px" align="left">
     <div width="100px">
-      <h3 class="cardinal logo">
+      <h3 class="cardinal roboto" style="font-size:200%">
           POMOgranate
       </h3>
     </head>
     <body>
-      <script src="src/popup.js"></script>
+      <div class="main">
+          <h1 class="interval"></h1>
+          <h1 class="status"></h1>
+          <h1 class="timer">Timer</h1>
+          <button onclick="startTimer();" type="button" name="button">Start timer</button>
+        <button onclick="endTimer();" type="button" name="button">End timer</button>
+      </div>
     </body>
   </html>
   

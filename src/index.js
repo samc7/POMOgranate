@@ -6,6 +6,17 @@ var endTime;
 var currentInterval;
 var totalIntervals;
 
+document.addEventListener('DOMContentLoaded', documentEvents  , false);
+
+function documentEvents() {
+  document.getElementById('starty').addEventListener('click',
+      function() { startTimer();
+      });
+
+  document.getElementById('endy').addEventListener('click',
+      function() { endTimer();
+      });
+}
 
 function startTimer(){
   if (isOn == "false"){

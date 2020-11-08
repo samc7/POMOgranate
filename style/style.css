@@ -150,7 +150,7 @@ nav {
 
 /* Content */
 .main {
-    margin: 2px 2px 2px 2px;
+    margin: 0px 0px 0px 0px;
     word-wrap: break-word;
 }
 
@@ -183,6 +183,20 @@ hr {
 
 .maximg {
     max-height: 200px;
+}
+
+.btn {
+    color: #eb7058;
+    font-size: 30px;
+    background: #bb1235;
+}
+
+.btn:hover {
+    color: #f1dece;
+}
+
+.xl {
+    font-size: 100px;
 }
 
 /* Footer items */

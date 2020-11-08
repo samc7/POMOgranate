@@ -108,6 +108,8 @@ h2 {
 
 body {
     background: #f1dece;
+    min-width: 250px;
+    min-height: 300px;
 }
 
 /* Navigation Bar */
@@ -189,12 +191,26 @@ hr {
     color: #eb7058;
     font-size: 30px;
     background: #bb1235;
+    /* border: 5px solid; */
+    border-radius: 20px 20px;
 }
 
 .btn:hover {
     color: #f1dece;
 }
 
+.btn2 {
+    color: #eb7058;
+    font-size: 20px;
+
+    background: #bb1235;
+    /* border: 5px solid; */
+    border-radius: 10px 10px;
+}
+
+.btn2:hover {
+    color: #f1dece;
+}
 .xl {
     font-size: 100px;
 }

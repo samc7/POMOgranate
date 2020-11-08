@@ -1,45 +1,72 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="style/style.css">
-
-  <style media="screen">
-    body {
-      min-width: 250px;
-      min-height: 300px;
-    }
-  </style>
-  <script src="jquery-3.2.1.min.js"></script>
-  <script src="src/index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="src/index.js" charset="utf-8"></script>
 </head>
 
 <body>
-<div width="100px" style="background: white">
-  <img src="res/pomegranate.png" width="58px" align="left">
-  <h3 class="cardinal roboto" style="font-size:200%">
-    POMOgranate
-  </h3>
-</div>
+    <div class="main">
+        <img src="res/pomegranate.png" width="58px" align="left">
 
-<div class="main" style="background: white; margin-top: 5%;">
-  <h3 class="interval center"></h3>
-  <h3 class="status center "></h3>
-  <h2 class="timer center">Timer</h2>
-  <button class="button" style="margin: 5px; width: 115px" id = "starty">Start timer</button>
-  <button class="button" style="margin: 5px; width: 115px" id = "endy">End timer</button>
-</div>
+        <h2 class="cardinal concert" style="font-size:200%">
+            POMOgranate
+        </h2>
 
-<div style="background: white; margin-top: 5px;">
-  <button class="roboto button" style="margin: 5px; width:250px">Block this site</button>
-</div>
+        <div class="row">
+            <div class="col-sm-12 botpad textpad">
+                <h2 class="concert status left cardinal">
+                    Status: Inactive
+                </h2>
+                
+                <h2 class="concert timer left cardinal">
+                    0:00
+                </h2>
 
-<div style="background: white; margin-top: 5px;">
-  <button class="roboto button" style="margin: 5px; width:250px">Unblock this site</button>
-</div>
+                <h2 class="concert interval left cardinal">
+                    0/3
+                </h2>
+                
+                <button class="button btn2 concert center" id="starty">
+                    Start timer
+                </button>
+                
+                <p></p>
+                
+                <button class="button btn2 concert center" id="endy">
+                    End timer
+                </button>
+                
+                <p></p>
 
-<div style="background: white; margin-top: 5px;">
-  <button class="roboto button" style="margin: 5px; width:250px">Settings</button>
-</div>
+                <button class="button btn2 concert center">
+                    Block this site
+                </button>
+                
+                <p></p>
+
+                <button class="button btn2 concert center">
+                    Unblock this site
+                </button>
+                
+                <p></p>
+
+                <button class="button btn2 concert center">
+                    Settings
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: white; margin-top: 5px;">
+    </div>
+
+    <div style="background: white; margin-top: 5px;">
+    </div>
+
+    <div style="background: white; margin-top: 5px;">
+    </div>
 
 </body>
 

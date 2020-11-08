@@ -66,25 +66,25 @@ $(document).ready(function() {
 var x = setInterval(function() {
   if (isOn == "true"){
     if (isBreak ==  "true"){
-      $(".status").text("Break")
+      $(".status").text("Status: Break")
     }else{
-      $(".status").text("Work")
+      $(".status").text("Status: Work")
     }
     var now = new Date().getTime();
     var dist = endTime - now
     var minutes = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((dist % (1000 * 60)) / 1000);
-    $(".timer").text(minutes + " : " + seconds)
+    $(".timer").text(minutes + ":" + seconds)
     $(".interval").text(currentInterval + "/" + totalIntervals)
     if (dist <= 0){
-      $(".timer").text("")
+      $(".timer").text("0:00")
       if (isBreak == "true"){
         endTime = now + productivityTimer
         isBreak = "false"
 
         currentInterval += 1
       }else{
-        $(".timer").text("")
+        $(".timer").text("0:00")
         endTime = now + breakTimer
         isBreak = "true"
       }
@@ -97,6 +97,7 @@ var x = setInterval(function() {
 
     }
   }else{
-    $(".timer").text("")
+    $(".timer").text("0:00")
+    $(".status").text("Status: Inactive")
   }
 }, 100)

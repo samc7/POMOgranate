@@ -1,41 +1,42 @@
-<!DOCTYPE html>
 <html>
 
-  <head>
-    <link rel="stylesheet" href="Style/style.css">
-  
-    <style media="screen">
-      body {
-        min-width: 250px;
-        min-height: 300px;
-      }
-    </style>
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="src/index.js" charset="utf-8"></script>
-  </head>
+<head>
+  <link rel="stylesheet" href="style/style.css">
+
+  <style media="screen">
+    body {
+      min-width: 250px;
+      min-height: 300px;
+    }
+  </style>
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="src/index.js" charset="utf-8"></script>
+</head>
 
 <body>
-  <div width="100px" style="background: white">
-    <img src="res/pomegranate.png" width="58px" align="left">
-    <h3 class="cardinal roboto" style="font-size:200%">
-      POMOgranate
-    </h3>
-  </div>
-  <div class="main" style="background: white; margin-top: 5%;">
-    <h3 class="interval"></h3>
-    <h3 class="status"></h3>
-    <h2 class="timer center">Timer</h2>
-    <button class="button" style="margin: 5px; width: 115px">Start timer</button>
-    <script src ="src/index.js">startTimer();</script>
-    <button class="button" style="margin: 5px; width: 115px">End timer</button>
-    <script src ="src/index.js">endTimer();</script>
-  </div>
-  <div style="background: white; margin-top: 5px;">
-    <button class="roboto button" style="margin: 5px; width:250px">Block this site</button>
-  </div>
-  <div style="background: white; margin-top: 5px;">
-    <button class="roboto button" style="margin: 5px; width:250px">unblock this site</button>
-  </div>
+<div width="100px" style="background: white">
+  <img src="res/pomegranate.png" width="58px" align="left">
+  <h3 class="cardinal roboto" style="font-size:200%">
+    POMOgranate
+  </h3>
+</div>
+
+<div class="main" style="background: white; margin-top: 5%;">
+  <h3 class="interval"></h3>
+  <h3 class="status"></h3>
+  <h2 class="timer center">Timer</h2>
+  <button class="button" style="margin: 5px; width: 115px" id = "starty">Start timer</button>
+  <button class="button" style="margin: 5px; width: 115px" id = "endy">End timer</button>
+</div>
+
+<div style="background: white; margin-top: 5px;">
+  <button class="roboto button" style="margin: 5px; width:250px">Block this site</button>
+</div>
+
+<div style="background: white; margin-top: 5px;">
+  <button class="roboto button" style="margin: 5px; width:250px">unblock this site</button>
+</div>
+
 </body>
 
 </html>

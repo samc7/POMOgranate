@@ -13,7 +13,8 @@
     "default_popup": "popup.html",
     "default_icon": {
       "128": "res/pomegranate.png"
-    }
+    },
+      "js": ["jquery-3.2.1.min.js","src/index.js"]
   },
     
     "content_scripts": [
@@ -21,7 +22,7 @@
      "matches": ["https://q.utoronto.ca/*"],
      "run_at": "document_idle",
      "all_frames": true,
-     "js": ["src/content.js"]
+     "js": ["jquery-3.2.1.min.js","src/content.js"]
      }
      ],
    

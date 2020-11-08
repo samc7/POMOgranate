@@ -6,6 +6,7 @@ var endTime;
 var currentInterval;
 var totalIntervals;
 
+
 function startTimer(){
   if (isOn == "false"){
     var now = new Date().getTime();

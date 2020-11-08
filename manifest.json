@@ -13,18 +13,25 @@
     "default_popup": "popup.html",
     "default_icon": {
       "128": "res/pomegranate.png"
-    }
+    },
+      "js": ["jquery-3.2.1.min.js","src/index.js"]
   },
     
     "content_scripts": [
      {
-     "matches": ["https://q.utoronto.ca/*"],
+     "matches": ["https://twitter.com/*",
+      "https://www.facebook.com/*",
+      "https://www.reddit.com/*",
+      "https://www.coolmathgames.com/*",
+      "https://www.instagram.com/*",
+      "https://www.netflix.com/*",
+      "https://www.amazon.ca/*"
+     ],
      "run_at": "document_idle",
      "all_frames": true,
-     "js": ["src/content.js"]
+     "js": ["jquery-3.2.1.min.js","src/content.js"]
      }
      ],
-   
     
     "manifest_version": 2
   }

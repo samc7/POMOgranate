@@ -1,18 +1,73 @@
- <!DOCTYPE html>
-  <html>
-    <head>
-      <style media="screen">
-        button {
-          height: 30px;
-          width: 30px;
-          outline: none;
-        }
-      </style>
-    </head>
-    <body>
-      Test
-      <button id="changeColor"></button>
-      <script src="popup.js"></script>
-    </body>
-  </html>
-    <!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="src/index.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="main">
+        <img src="res/pomegranate.png" width="58px" align="left">
+
+        <h2 class="cardinal concert" style="font-size:200%">
+            POMOgranate
+        </h2>
+
+        <div class="row">
+            <div class="col-sm-12 botpad textpad">
+                <h2 class="concert status left cardinal">
+                    Status: Inactive
+                </h2>
+                
+                <h2 class="concert timer left cardinal">
+                    0:00
+                </h2>
+
+                <h2 class="concert interval left cardinal">
+                    0/3
+                </h2>
+                
+                <button class="button btn2 concert center" id="starty">
+                    Start timer
+                </button>
+                
+                <p></p>
+                
+                <button class="button btn2 concert center" id="endy">
+                    End timer
+                </button>
+                
+                <p></p>
+
+                <button class="button btn2 concert center">
+                    Block this site
+                </button>
+                
+                <p></p>
+
+                <button class="button btn2 concert center">
+                    Unblock this site
+                </button>
+                
+                <p></p>
+
+                <button class="button btn2 concert center">
+                    Settings
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div style="background: white; margin-top: 5px;">
+    </div>
+
+    <div style="background: white; margin-top: 5px;">
+    </div>
+
+    <div style="background: white; margin-top: 5px;">
+    </div>
+
+</body>
+
+</html>

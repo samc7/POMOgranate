@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+/* 
+cardinal: #bb1235
+salmon: #eb7058
+creme: #f1dece
+charcoal: #36454f 
+blue: #43bcbd
+*/
+
+/* Alignments */
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Padding and margins */
+.textdivmargin {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.textpad {
+    padding: 0 15px 0 15px;
+}
+
+.nopad {
+    padding: 0 0 0 0;
+}
+
+.padded {
+    padding: 15px 15px 15px 15px;
+}
+
+.button {
+    background-color: #bb1235; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+/* Tag items */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+div {
+    display: block;
+    overflow: hidden;
+    padding: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 19px;
+}
+
+a:hover {
+    text-decoration: none;
+    font-size: 19px;
+}
+
+a:visited:hover {
+    text-decoration: none;
+    font-size: 19px;
+}
+
+p {
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+li {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+body {
+    background: #f1dece;
+    min-width: 250px;
+    min-height: 300px;
+}
+
+/* Navigation Bar */
+.nonstick {
+    text-align: center;
+    object-fit: contain;
+    width: 100%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 0px 5px 0px;
+    line-height: 1px;
+}
+
+.nav-link {
+    vertical-align: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+nav {
+    background: #eb7058;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #bb1235;
+    font-family: 'Concert One', cursive !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    font-family: 'Concert One', cursive !important;
+    color: #f1dece;
+}
+
+
+/* Content */
+.main {
+    margin: 0px 0px 0px 0px;
+    word-wrap: break-word;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.divpad {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.toppad {
+    padding-top: 15px;
+}
+
+.botpad {
+    padding-bottom: 15px;
+}
+
+hr {
+    background-color: black;
+    width: 120%;
+    height: 12px;
+    border-top: 1px solid black;
+    margin: 0px 0px 0px 0px;
+}
+
+.maximg {
+    max-height: 200px;
+}
+
+.btn {
+    color: #eb7058;
+    font-size: 30px;
+    background: #bb1235;
+    /* border: 5px solid; */
+    border-radius: 20px 20px;
+}
+
+.btn:hover {
+    color: #f1dece;
+}
+
+.btn2 {
+    color: #eb7058;
+    font-size: 20px;
+
+    background: #bb1235;
+    /* border: 5px solid; */
+    border-radius: 10px 10px;
+}
+
+.btn2:hover {
+    color: #f1dece;
+}
+.xl {
+    font-size: 100px;
+}
+
+/* Footer items */
+.foot {
+    line-height: 1.5;
+    border-top: 15px solid black;
+    word-wrap: break-word;
+}
+
+/* Manual */
+.concert {     
+    font-family: 'Concert One', cursive !important;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.cardinal {
+    color: #bb1235 !important;
+}
+
+.salmon {
+    color: #eb7058 !important;
+}
+
+.creme {
+    color: #f1dece !important;
+}
+
+.blue {
+    color: #43bcbd;
+}
+
+.black {
+    color: black !important; 
+}
+
+.charcoal {
+    color: #36454f !important;
+}
+
+.white {
+    color: white !important;
+}
+
+.cardinalb {
+    background: #bb1235 !important;
+}
+
+.salmonb {
+    background: #eb7058 !important;
+}
+
+.cremeb {
+    background: #f1dece !important;
+}
+
+.blueb {
+    background: #43bcbd;
+}
+
+.blackb {
+    background: black !important; 
+}
+
+.charcoalb {
+    background: #36454f !important;
+}
+
+.whiteb {
+    background: white !important;
+}
+
+

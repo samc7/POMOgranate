@@ -21,7 +21,7 @@
      {
      "matches": ["https://twitter.com/*",
       "https://q.utoronto.ca/*",
-      "https://www.facebook.com/",
+      "https://www.facebook.com/*",
       "https://www.reddit.com/*",
       "https://www.coolmathgames.com/*",
       "https://www.instagram.com/*",

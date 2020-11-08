@@ -18,16 +18,7 @@ blue: #43bcbd
 .right {
     text-align: right;
 }
-.button {
-    background-color: #bb1235; 
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+
 .center {
     text-align: center;
 }
@@ -148,7 +139,7 @@ nav {
 
 /* Content */
 .main {
-    margin: 2px 2px 2px 2px;
+    margin: 0px 0px 0px 0px;
     word-wrap: break-word;
 }
 
@@ -181,6 +172,20 @@ hr {
 
 .maximg {
     max-height: 200px;
+}
+
+.btn {
+    color: #eb7058;
+    font-size: 30px;
+    background: #bb1235;
+}
+
+.btn:hover {
+    color: #f1dece;
+}
+
+.xl {
+    font-size: 100px;
 }
 
 /* Footer items */

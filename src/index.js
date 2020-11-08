@@ -5,7 +5,7 @@ var isBreak;
 var endTime;
 var currentInterval;
 var totalIntervals;
-
+console.log("hello world!");
 document.addEventListener('DOMContentLoaded', documentEvents  , false);
 
 function documentEvents() {

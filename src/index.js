@@ -5,7 +5,7 @@ var isBreak;
 var endTime;
 var currentInterval;
 var totalIntervals;
-console.log("hello world!");
+
 document.addEventListener('DOMContentLoaded', documentEvents  , false);
 
 function documentEvents() {
@@ -66,25 +66,25 @@ $(document).ready(function() {
 var x = setInterval(function() {
   if (isOn == "true"){
     if (isBreak ==  "true"){
-      $(".status").text("Status: Break")
+      $(".status").text("Break")
     }else{
-      $(".status").text("Status: Work")
+      $(".status").text("Work")
     }
     var now = new Date().getTime();
     var dist = endTime - now
     var minutes = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((dist % (1000 * 60)) / 1000);
-    $(".timer").text(minutes + ":" + seconds)
+    $(".timer").text(minutes + " : " + seconds)
     $(".interval").text(currentInterval + "/" + totalIntervals)
     if (dist <= 0){
-      $(".timer").text("0:00")
+      $(".timer").text("")
       if (isBreak == "true"){
         endTime = now + productivityTimer
         isBreak = "false"
 
         currentInterval += 1
       }else{
-        $(".timer").text("0:00")
+        $(".timer").text("")
         endTime = now + breakTimer
         isBreak = "true"
       }
@@ -97,7 +97,8 @@ var x = setInterval(function() {
 
     }
   }else{
-    $(".timer").text("0:00")
-    $(".status").text("Status: Inactive")
+    $(".timer").text("")
   }
 }, 100)
+
+console.log("is on" + localStorage.getItem("isOn"));

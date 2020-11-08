@@ -1,9 +1,6 @@
-var isWorkC = false;
-var isBreakC = false;
+isOn = require('index')
 
-isWorkC = localStorage.getItem("isOn");
-
-console.log(isWorkC);
+console.log(isOn);
 
 if (isWorkC == "true") {
     document.documentElement.innerHTML = '';

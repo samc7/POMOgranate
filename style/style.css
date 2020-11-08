@@ -18,16 +18,7 @@ blue: #43bcbd
 .right {
     text-align: right;
 }
-.button {
-    background-color: #bb1235; 
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+
 .center {
     text-align: center;
 }
@@ -57,6 +48,17 @@ blue: #43bcbd
     padding: 15px 15px 15px 15px;
 }
 
+.button {
+    background-color: #bb1235; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
 /* Tag items */
 img {
     max-width: 100%;

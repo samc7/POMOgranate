@@ -19,7 +19,15 @@
     
     "content_scripts": [
      {
-     "matches": ["https://q.utoronto.ca/*"],
+     "matches": ["https://twitter.com/*",
+      "https://q.utoronto.ca/*",
+      "https://www.facebook.com/",
+      "https://www.reddit.com/*",
+      "https://www.coolmathgames.com/*",
+      "https://www.instagram.com/*",
+      "https://www.netflix.com/*",
+      "https://www.amazon.ca/*"
+     ],
      "run_at": "document_idle",
      "all_frames": true,
      "js": ["jquery-3.2.1.min.js","src/content.js"]

@@ -7,7 +7,7 @@ It will also block any websites that don't allow you to be productive such as so
 Contributors: 
 
 Sam Chowdhury
-[samc7](https://github.com/samc7)
+[samn-c](https://github.com/samn-c)
 
 Jennifer Mah
 [jmah4](https://github.com/jmah4)
